@@ -1,0 +1,47 @@
+
+
+
+
+
+/* cambiare colore alla barra di navigazione */
+.topnav {
+  background-color: black; 
+  overflow: hidden;
+}
+
+/* stile dei link nella barra di nav*/
+.topnav a {
+  float: left;
+  font-family: 'Anton', sans-serif;
+  color: white;
+  text-align: right;
+  padding: 10px 30px;
+  text-decoration: white;
+  font-size: 20px;
+}
+
+/* Cambia il colore dei link al passaggio del mouse */
+.topnav a:hover {
+  background-color:#68838B;
+  color: #ADD8E6;
+}
+
+
+
+.topnav .icon {
+  display: inline-block;
+}
+
+
+/* INIZIO MENU A TENDINA PURO CSS */
+/* TNEDINA IN CSS IN RIGHT NAV STYLE CSS FOGLIO DIVISO  */
+
+/* stile dei link nella barra di nav*/
+.topnav a {
+  float: center;
+  font-family: 'Anton', sans-serif;
+  color: #9932CC;
+  text-align: right;
+  padding: 10px 30px;
+  font-size: 20px;
+}
